@@ -1,0 +1,3 @@
+[2025-06-27 17:18:24,655][local_logger][INFO] - Sample batch keys: ['input_ids', 'attention_mask', 'cat_data', 'label']
+[2025-06-27 17:18:24,655][local_logger][INFO] - Sample input_ids shape: torch.Size([4, 1, 512])
+[2025-06-27 17:18:25,333][local_logger][INFO] - Starting training...

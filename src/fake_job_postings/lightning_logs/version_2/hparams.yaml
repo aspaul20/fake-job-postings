@@ -1,0 +1,13 @@
+cat_classes:
+- 1338
+- 6
+- 8
+- 14
+- 132
+- 38
+- 91
+- 2336
+cat_emb_dim: 64
+cat_out_dim: 64
+lr: 2.0e-05
+text_out_dim: 128

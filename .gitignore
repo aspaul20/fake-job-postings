@@ -1,0 +1,4 @@
+src/fake_job_postings/checkpoints
+*.csv
+*.ckpt
+*.safetensors
