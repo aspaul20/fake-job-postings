@@ -1,17 +1,15 @@
-import numpy as np
 import pandas as pd
-import re
 
-df = pd.read_csv('fake_job_postings.csv')
+df = pd.read_csv("fake_job_postings.csv")
 
 # text feats = [title, company_profile, description, requirements, benefits]
 # num feats = [telecommuting, has_company_logo, has_questions]
 # cat feats = [department, employment_type, required_experience, required_education, industry, function, country, city]
 
 # Separate out location
-df['country'] = df['location'].str.split(',', expand=True)[0]
-df['city'] = df['location'].str.split(',', expand=True)[2]
-df.drop(columns=['location'], inplace=True)
+df["country"] = df["location"].str.split(",", expand=True)[0]
+df["city"] = df["location"].str.split(",", expand=True)[2]
+df.drop(columns=["location"], inplace=True)
 
 # Add salary tag
 # df['salary_clean'] = df['salary_range'].fillna("UNKNOWN")
