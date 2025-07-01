@@ -9,3 +9,5 @@ Built with PyTorch Lightning, Pandas, Hydra, Comet & Poetry.
 poetry install
 poetry run train
 ```
+
+TODO: add testing code
